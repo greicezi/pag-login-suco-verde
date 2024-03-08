@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(63, 187, 146);
+    display: flex;
+    padding: 30px;
+}
+
+.card-right{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    box-sizing: border-box;
+    
+}
+
+.titulo {
+    color: rgb(105, 216, 179);
+}
+
+.card-left{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(105, 216, 179);
+    border-top-left-radius:90px;
+    border-bottom-left-radius: 90px;
+    box-sizing: border-box;
+    gap: 20px
+   }
+
+.left-login > h1{
+    color: white;
+    font-family: "Playfair Display", serif;      
+}
+
+.botao-login{
+    background-color: rgb(105, 216, 179);
+    color: white;
+    font-family: "Playfair Display", serif;
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; background-color: rgb(105, 216, 179);
+}
+
+.botao-login:hover {
+    background-color: rgb(226, 236, 230);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo > input {
+border: none;
+padding: 5px;
+background-color: rgb(236, 237, 241);
+width: 180%;
+outline: none;
+box-sizing: border-box;
+align-items: flex-start;
+justify-content: center;
+}
+
+.botao-right {
+    background-color: rgb(105, 216, 179);
+    color: white;
+    font-family: "Playfair Display", serif;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; background-color: rgb(105, 216, 179);   
+
+}
+
+.botao-right:hover {
+    background-color: rgb(226, 236, 230);
+
+}
+
+.right-login > h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+}
